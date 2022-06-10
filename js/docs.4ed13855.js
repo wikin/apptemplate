@@ -1,0 +1,1 @@
+"use strict";(self["webpackChunkapptemplate"]=self["webpackChunkapptemplate"]||[]).push([[163],{310:function(e,t,n){n.r(t),n.d(t,{default:function(){return o}});var u=n(252);function p(e,t,n,p,r,a){const c=(0,u.up)("the-view");return(0,u.wg)(),(0,u.j4)(c,{title:"Documents"})}var r=n(730),a={components:{TheView:r.Z}},c=n(744);const s=(0,c.Z)(a,[["render",p]]);var o=s}}]);
