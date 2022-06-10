@@ -1,4 +1,6 @@
 module.exports = {
+  publicPath: process.env.NODE_ENV === 'production' ? '/apptemplate/' : '/',
+
   /**
    * @see https://cli.vuejs.org/config/#productionsourcemap
    */
@@ -9,7 +11,7 @@ module.exports = {
    * (no needs to add '.module.scss' into the the filenames)
    * @see https://cli.vuejs.org/config/#css-requiremoduleextension
    */
-   css: {
+  css: {
     loaderOptions: {
       css: {
         modules: false,
